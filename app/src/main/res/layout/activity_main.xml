@@ -59,7 +59,7 @@
                 android:id="@+id/summer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="🌞 여름 추천 나라"
+                android:text="🌞 여름  추천 나라"
                 android:textColor="@android:color/holo_red_dark"
                 android:layout_gravity="center"
                 android:padding="16dp"
@@ -71,8 +71,7 @@
                 android:layout_height="wrap_content"
                 android:text="영국"
                 android:background="@drawable/solid_button_uk"
-                android:layout_margin="1dp"
-                android:onClick="openUKPage"/>
+                android:layout_margin="1dp" />
 
             <Button
                 android:id="@+id/jpBtn"
@@ -80,13 +79,12 @@
                 android:layout_height="wrap_content"
                 android:text="일본"
                 android:background="@drawable/solid_button_jp"
-                android:layout_margin="1dp"
-                android:onClick="openJPPage"/>
+                android:layout_margin="1dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="⛄겨울 추천 나라"
+                android:text="⛄ 겨울  추천 나라"
                 android:layout_gravity="center"
                 android:textColor="@android:color/holo_blue_dark"
                 android:padding="16dp"
@@ -98,8 +96,7 @@
                 android:layout_height="wrap_content"
                 android:text="핀란드"
                 android:background="@drawable/solid_button_fin"
-                android:layout_margin="1dp"
-                android:onClick="openFINPage"/>
+                android:layout_margin="1dp" />
 
             <Button
                 android:id="@+id/ausBtn"
@@ -107,8 +104,7 @@
                 android:layout_height="wrap_content"
                 android:text="호주"
                 android:background="@drawable/solid_button_aus"
-                android:layout_margin="1dp"
-                android:onClick="openAUSPage"/>
+                android:layout_margin="1dp" />
         </LinearLayout>
 
         <!-- 메인 컨텐츠 영역 -->
@@ -192,7 +188,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="❗ 안전정보"
-                android:onClick="openSafetyLink"
                 android:layout_marginBottom="15dp"/>
 
             <Button
@@ -200,15 +195,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="🌤️ 세계날씨"
-                android:onClick="openWeatherLink"
                 android:layout_marginBottom="15dp"/>
 
             <Button
                 android:id="@+id/exchangeBtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="📊 해외환율"
-                android:onClick="openExchangeLink" />
+                android:text="📊 해외환율" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
