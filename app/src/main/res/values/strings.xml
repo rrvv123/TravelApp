@@ -1,5 +1,3 @@
 <resources>
     <string name="app_name">TravelApplication</string>
-    <string name="btnBg">배경색 변경</string>
-    <string name="btnRotataion">버튼 회전 및 확대</string>
 </resources>
